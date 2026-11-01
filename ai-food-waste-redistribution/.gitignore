@@ -1,0 +1,36 @@
+# Dependencies
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Env files
+.env
+.env.local
+*.env
+
+# Build output
+client/dist/
+client/build/
+
+# AI model artifacts (large binaries — track via LFS or external storage, not git)
+ai-service/app/models/*.h5
+ai-service/app/models/*.keras
+ai-service/app/models/*.pt
+
+# Donation photos (local-disk storage fallback)
+server/uploads/
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS/editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Test coverage
+coverage/
